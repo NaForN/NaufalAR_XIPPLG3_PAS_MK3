@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+    <style>
+        
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; 
+            margin: 0; 
+        }
+
+       
+        .start-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50; 
+            color: white; 
+        }
+
+        
+        .start-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+     <!-- Tombol Start -->
+     <button class="start-button" onclick="startFunction()">Start</button>
+
+     <script>
+        
+         function startFunction() {
+            window.location.href = "index.html";
+         }
+     </script>
+</body>
+</html>
