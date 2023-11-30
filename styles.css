@@ -68,3 +68,18 @@ body{
 .h1{
   align-items: center;
 }
+
+.back-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; 
+  color: white; 
+}
+back-button:hover {
+  background-color: #45a049;
+}
+        .
